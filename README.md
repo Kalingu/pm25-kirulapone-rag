@@ -49,3 +49,5 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline to p
 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+
