@@ -39,9 +39,6 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline to p
 | "Average PM2.5 in 2023?" | 0.0s | 12.3 µg/m³ |
 | "Max PM2.5 this year?" | 0.0s | 89.2 µg/m³ |
 
-*Optional:* Add screenshot of sample output:  
-`images/sample_query.png`
-
 ---
 
 ## Quick Start
@@ -50,4 +47,9 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline to p
 ```bash
 pip install -r requirements.txt
 
+ollama pull llama3.2:3b
+
+[HNDDS242_011 pm25_report.pdf Report.pdf](https://github.com/user-attachments/files/24797153/HNDDS242_011.Report.pdf)
+
+jupyter notebook pm25_rag_complete.ipynb
 
