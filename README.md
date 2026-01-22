@@ -44,13 +44,6 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline to p
 
 ---
 
-## Visualizations
-
-- Example pipeline diagram: `images/rag_pipeline.png`  
-- Sample query screenshot: `images/sample_query.png`
-
----
-
 ## Quick Start
 
 1. Install dependencies:
