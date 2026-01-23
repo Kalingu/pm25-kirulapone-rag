@@ -43,13 +43,24 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline to p
 
 ## Quick Start
 
-1. Install dependencies:
+Step 1: Install dependencies
 ```bash
 pip install -r requirements.txt
-
+```
+Step 2: Pull the local LLM using Ollama
+```bash
 ollama pull llama3.2:3b
+```
+Step 3: Place the PM2.5 report PDF:  
+[HNDDS242_011 Report.pdf](https://github.com/user-attachments/files/24811575/HNDDS242_011.Report.pdf)
 
-[HNDDS242_011 pm25_report.pdf Report.pdf](https://github.com/user-attachments/files/24797153/HNDDS242_011.Report.pdf)
-
+Step 4: Run the notebook:
+```bash
 jupyter notebook pm25_rag_complete.ipynb
+```
+
+
+
+
+
 
